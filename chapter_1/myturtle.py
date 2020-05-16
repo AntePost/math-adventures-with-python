@@ -41,6 +41,20 @@ def star_spiral():
         right(5)
         length += 5
 
+def embedded_squares():
+    length = 1
+    for i in range(60):
+        fd(length)
+        rt(90)
+        length += 1
+
+def spiral():
+    length = 1
+    for i in range(60):
+        rt(30)
+        fd(length)
+        length += 1
+
 # for i in range(60):
 #    square()
 #    right(5)
@@ -53,7 +67,9 @@ def star_spiral():
 
 #star()
 
-star_spiral()
+#star_spiral()
+
+spiral()
 
 hideturtle()
 mainloop()
